@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Inventory/InventoryDisplay.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Inventory/InventoryContainer.gd" type="Script" id=2]
 
-[node name="ColorRect" type="ColorRect"]
-self_modulate = Color( 0, 0, 0, 1 )
+[node name="InventoryContainer" type="ColorRect"]
+self_modulate = Color( 0.384314, 0.180392, 0.180392, 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = 162.543
+margin_top = 14.5459
+margin_right = -24.4573
+margin_bottom = -60.4541
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -13,18 +19,20 @@ __meta__ = {
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 47.6897
-margin_top = 11.6153
-margin_right = -60.3103
-margin_bottom = -21.3847
+margin_left = 31.4203
+margin_top = 20.9117
+margin_right = -34.5797
+margin_bottom = -28.0883
+mouse_filter = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="InventoryDisplay" parent="CenterContainer" instance=ExtResource( 1 )]
+show_behind_parent = true
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 79.0
-margin_top = 46.0
-margin_right = 133.0
-margin_bottom = 100.0
+margin_left = 6.0
+margin_top = 1.0
+margin_right = 60.0
+margin_bottom = 55.0

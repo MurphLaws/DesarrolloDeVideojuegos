@@ -30,5 +30,8 @@ func can_drop_data(_position, data):
 	return data is Dictionary and data.has("item")
 	
 func drop_data(_position, data):
-	pass
+	var my_item_index = get_index()
+	var my_item = inventory.items[my_item_index]
+	inventory.swap_items(my_item_index, data.item_index)
+	inventory.set_item(my_item_index,data.item)
 	
