@@ -5,7 +5,7 @@
 [node name="Mundo" type="Node2D"]
 
 [node name="InventoryContainer" parent="." instance=ExtResource( 1 )]
-margin_left = 164.05
-margin_top = 13.4126
-margin_right = 292.05
-margin_bottom = 141.413
+margin_left = 118.974
+margin_top = 9.00113
+margin_right = 304.974
+margin_bottom = 119.001

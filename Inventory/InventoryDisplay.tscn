@@ -8,7 +8,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 custom_constants/vseparation = 0
 custom_constants/hseparation = 0
-columns = 3
+columns = 4
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -17,66 +17,127 @@ __meta__ = {
 [node name="InventorySlotDisplay" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 106.0
-margin_bottom = 60.0
+margin_right = 80.0
+margin_bottom = 45.0
 
 [node name="InventorySlotDisplay2" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 106.0
-margin_right = 212.0
-margin_bottom = 60.0
+margin_left = 80.0
+margin_right = 160.0
+margin_bottom = 45.0
 
 [node name="InventorySlotDisplay3" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 212.0
-margin_right = 318.0
-margin_bottom = 60.0
+margin_left = 160.0
+margin_right = 240.0
+margin_bottom = 45.0
 
 [node name="InventorySlotDisplay4" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 60.0
-margin_right = 106.0
-margin_bottom = 120.0
+margin_left = 240.0
+margin_right = 320.0
+margin_bottom = 45.0
 
 [node name="InventorySlotDisplay5" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 106.0
-margin_top = 60.0
-margin_right = 212.0
-margin_bottom = 120.0
+margin_top = 45.0
+margin_right = 80.0
+margin_bottom = 90.0
 
 [node name="InventorySlotDisplay6" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 212.0
-margin_top = 60.0
-margin_right = 318.0
-margin_bottom = 120.0
+margin_left = 80.0
+margin_top = 45.0
+margin_right = 160.0
+margin_bottom = 90.0
 
 [node name="InventorySlotDisplay7" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 120.0
-margin_right = 106.0
-margin_bottom = 180.0
+margin_left = 160.0
+margin_top = 45.0
+margin_right = 240.0
+margin_bottom = 90.0
 
 [node name="InventorySlotDisplay8" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 106.0
-margin_top = 120.0
-margin_right = 212.0
-margin_bottom = 180.0
+margin_left = 240.0
+margin_top = 45.0
+margin_right = 320.0
+margin_bottom = 90.0
 
 [node name="InventorySlotDisplay9" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 212.0
-margin_top = 120.0
-margin_right = 318.0
+margin_top = 90.0
+margin_right = 80.0
+margin_bottom = 135.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay10" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 80.0
+margin_top = 90.0
+margin_right = 160.0
+margin_bottom = 135.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay11" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 160.0
+margin_top = 90.0
+margin_right = 240.0
+margin_bottom = 135.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay12" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 240.0
+margin_top = 90.0
+margin_right = 320.0
+margin_bottom = 135.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay13" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 135.0
+margin_right = 80.0
+margin_bottom = 180.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay14" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 80.0
+margin_top = 135.0
+margin_right = 160.0
+margin_bottom = 180.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay15" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 160.0
+margin_top = 135.0
+margin_right = 240.0
+margin_bottom = 180.0
+rect_pivot_offset = Vector2( 291.197, -120.841 )
+
+[node name="InventorySlotDisplay16" parent="." instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 240.0
+margin_top = 135.0
+margin_right = 320.0
 margin_bottom = 180.0
 rect_pivot_offset = Vector2( 291.197, -120.841 )

@@ -7,10 +7,6 @@
 self_modulate = Color( 0.384314, 0.180392, 0.180392, 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 162.543
-margin_top = 14.5459
-margin_right = -24.4573
-margin_bottom = -60.4541
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -19,10 +15,10 @@ __meta__ = {
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 31.4203
-margin_top = 20.9117
-margin_right = -34.5797
-margin_bottom = -28.0883
+margin_left = -12.3557
+margin_top = 19.7892
+margin_right = -78.3557
+margin_bottom = -29.2108
 mouse_filter = 2
 __meta__ = {
 "_edit_use_anchors_": false
@@ -32,7 +28,7 @@ __meta__ = {
 show_behind_parent = true
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 6.0
-margin_top = 1.0
-margin_right = 60.0
-margin_bottom = 55.0
+margin_left = 91.0
+margin_top = 29.0
+margin_right = 163.0
+margin_bottom = 101.0

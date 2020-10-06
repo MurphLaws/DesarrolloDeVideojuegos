@@ -19,11 +19,20 @@ func get_drag_data(_position):
 		data.item = item
 		data.item_index = item_index
 		var dragPreview = TextureRect.new()
+		var c = Control.new()
+		c.add_child(dragPreview)
+		dragPreview.rect_position =  dragPreview.rect_size
 		dragPreview.texture = item.texture
-		set_drag_preview(dragPreview)
+		set_drag_preview(c)
 		return data
 	
-	
+	#func get_drag_data(_pos):
+	#var yourPreview = ...
+	#var c = Control.new()
+	#c.add_child(yourPreview)
+	#yourPreview.rect_position = -0.5 * yourPreview.rect_size
+	#set_drag_preview(c)
+	#return someDragData
 	
 		
 func can_drop_data(_position, data):
